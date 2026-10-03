@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+<header>
+  <nav>
+    <img src="assets/images/logo.svg" alt="Site Logo">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#new">New</a></li>
+        <li><a href="#popular">Popular</a></li>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="#categories">Categories</a></li>
+      </ul>
+    <button type="button" id="hamburger-menu" aria-label="Open navigation menu">
+      <span></span>
+    </button>
+    <div id="over-lay-cont">
+      <button type="button" id="close-btn" aria-label="Close navigation menu"></button>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#new">New</a></li>
+        <li><a href="#popular">Popular</a></li>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="#categories">Categories</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <section id="sec-1">
+    <picture>
+      <source srcset="assets/images/image-web-3-desktop.jpg" media="(width >=768px)"/>
+      <img src="assets/images/image-web-3-mobile.jpg" id="mobile-web-image" alt="image of a puzzle">
+    </picture>
+    <div id="sec-one-content">
+      <h1>The Bright Future of Web 3.0?</h1>
+      <div id="read-more-cont">
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+        But is it really fulfilling its promise?</p>
+        <a href="#">READ MORE</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sec-2">
+    <div class="sec-2-cont">
+      <h2>New</h2>
+      <h3>Hydrogen VS Electric Cars</h3>
+      <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+    </div>
+    
+    <div class="sec-2-cont">
+      <h3>The Downsides of AI Artistry</h3>
+      <p>What are the possible adverse effects of on-demand AI image generation?</p>
+    </div>
+    
+    <div class="sec-2-cont">
+      <h3>Is VC Funding Drying Up?</h3>
+      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+  </section>
+
+  <section id="sec-3">
+    <div class="sec-3-flex">
+      <div> 
+        <img src="assets/images/image-retro-pcs.jpg" class="sec-3-img" alt="picture of a computer">
+      </div>
+      <div class="sec-3-content">
+        <p class="sec-3-number">01</p>
+        <h3>Reviving Retro PCs</h3>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+    
+    <div class="sec-3-flex">
+      <div>
+        <img src="assets/images/image-top-laptops.jpg" class="sec-3-img" alt="">
+      </div>
+      <div class="sec-3-content">
+        <p class="sec-3-number">02</p>
+        <h3>Top 10 Laptops of 2022</h3>
+        <p>Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+    
+    <div class="sec-3-flex">
+      <div>
+        <img src="assets/images/image-gaming-growth.jpg" class="sec-3-img" alt="">
+      </div>
+      <div class="sec-3-content">
+        <p class="sec-3-number">03</p>
+        <h3>The Growth of Gaming</h3>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
