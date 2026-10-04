@@ -122,6 +122,7 @@ body main #sec-1 #sec-one-content #read-more-cont {
   }
   body main #sec-1 #sec-one-content #read-more-cont p {
     margin-top: 0;
+    font-size: 20px;
   }
 }
 body main #sec-1 #sec-one-content #read-more-cont a {
