@@ -23,4 +23,4 @@ I practiced using `repeat(3, minmax(0, 1fr))` to create equal columns that can s
 
 ## AI collaboration
 
-I used Codex to compare the reference design with my styles, refine desktop spacing and alignment, and explain the CSS Grid column definition.
+I used Codex to compare the reference design with my styles, refine desktop spacing and alignment.
