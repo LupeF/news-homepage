@@ -132,6 +132,11 @@ body main #sec-1 #sec-one-content #read-more-cont a {
   font-size: 1rem;
   font-weight: 800;
 }
+body main #sec-1 #sec-one-content #read-more-cont a:hover, body main #sec-1 #sec-one-content #read-more-cont a:focus-visible {
+  background-color: #00001a;
+  color: #fffdfa;
+  cursor: pointer;
+}
 body main #sec-2 {
   background-color: #00001a;
   color: white;
@@ -165,6 +170,9 @@ body main #sec-2 .sec-2-cont h2 {
   color: #e9ab53;
   font-size: 30px;
   margin-top: 0;
+}
+body main #sec-2 .sec-2-cont h2:hover {
+  color: #e9ab53;
 }
 @media (min-width: 1200px) {
   body main #sec-2 .sec-2-cont h2 {
@@ -352,6 +360,15 @@ nav ul li a,
   text-decoration: none;
 }
 
+nav ul li:hover {
+  color: #e9ab53;
+  cursor: pointer;
+}
+
+nav ul li a:focus-visible {
+  color: #e9ab53;
+}
+
 img {
   height: 30px;
 }
@@ -452,6 +469,11 @@ body {
 }
 body h1 {
   font-weight: 800;
+}
+body h2:hover,
+body h3:hover {
+  color: #e9ab53;
+  cursor: pointer;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

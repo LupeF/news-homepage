@@ -100,6 +100,12 @@ body{
                 color: black;
                 font-size: 1rem;
                 font-weight: 800;
+                &:hover,
+                &:focus-visible {
+                    background-color: hsl(240, 100%, 5%);
+                    color: hsl(36, 100%, 99%);
+                    cursor: pointer;
+                }
                 }
             }
         }
@@ -130,6 +136,9 @@ body{
                 }
                 h2{
                     color: hsl(35, 77%, 62%);
+                    &:hover {
+                        color: hsl(35, 77%, 62%);
+                    }
                     font-size: 30px;
                     margin-top: 0;
                     @media(min-width:1200px){

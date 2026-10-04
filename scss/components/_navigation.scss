@@ -30,6 +30,13 @@ nav{
         color: inherit;
         text-decoration: none;
     }
+    nav ul li:hover {
+        color: hsl(35, 77%, 62%);
+        cursor: pointer;
+    }
+    nav ul li a:focus-visible {
+        color: hsl(35, 77%, 62%);
+    }
     img {
         height: 30px;
     }
