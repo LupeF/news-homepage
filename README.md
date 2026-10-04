@@ -2,6 +2,9 @@
 
 A responsive news homepage built for the [Frontend Mentor news homepage challenge](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl), with a featured article, a news sidebar, article cards, and a mobile navigation menu.
 
+## Live site
+- https://lupef.github.io/news-homepage/
+
 ## Technologies used
 
 - HTML5 for page structure and responsive images.
